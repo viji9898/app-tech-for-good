@@ -63,19 +63,19 @@ export const NavBar = () => {
                 alt="logo"
               />
               <Link style={{ marginLeft: "5px" }} to="/">
-                Starter App
+                Tech for good
               </Link>
             </Space>
           </div>
           <div className="navbar-menu">
             <div className="leftMenu">
-              <LeftMenu mode={"horizontal"} />
+              {/* <LeftMenu mode={"horizontal"} /> */}
             </div>
             <Button className="menuButton" type="text" onClick={showDrawer}>
               <MenuOutlined />
             </Button>
             <div className="rightMenu">
-              <RightMenu mode={"horizontal"} />
+              {/* <RightMenu mode={"horizontal"} /> */}
             </div>
             <Drawer
               title={"Starter App"}

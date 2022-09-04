@@ -22,7 +22,10 @@ export const LandingPage = ({ helloWorld }) => {
           className="App-logo"
           alt="logo"
         />
-        <p>From Faunadb:</p>
+        <p>- Stealth Mode -</p>
+        <small>
+          <p>- under development -</p>
+        </small>
         {helloWorld ? (
           <p style={{ backgroundColor: "green" }}>
             <code>"{helloWorld.title}"</code>.
